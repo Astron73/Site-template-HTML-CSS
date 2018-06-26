@@ -1,0 +1,153 @@
+body{
+margin:0;
+padding:0;
+background-image:url(../image_W/wall.png);
+background-attachment:fixed;
+}
+
+a{text-decoration:none;}
+a:link{color:#00496C;}
+a:visited{color:#00496C;}
+a:hover{color:green;}
+
+
+.head{
+margin:10px auto 0 auto;
+width:1348px;
+height:219px;
+background-image:url(../image_W/head_ex.png);
+box-shadow: 30px 5px 15px 7px #3E3833;
+}
+
+.wrap{
+outline:0px solid green;
+margin:0px auto;
+padding:0 auto;
+width:1000px
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.navi{
+position:relative;
+margin:0 auto;
+padding:24px 0;
+color:#FFFFC1;
+outline:0px solid #9905F2;
+border-bottom:0px ridge #F0EFAD;
+
+}
+#main,#city,#galery,#excursion{
+top: 1px;
+font:15px  Comic Sans MS;
+background-color:#D3D298;
+padding:15px 5px;
+border-top:2px dashed gray;
+box-shadow: 2px 0 7px 1px #6A6A6A;
+}
+#main{
+left:300px;
+position:absolute;
+}
+#city{
+position:absolute;
+left:400px;
+}
+#galery{
+position:absolute;
+left:550px;
+}
+#excursion{
+position:absolute;
+left:650px;
+}
+#main:hover{background-color:#E1E0A6;}
+#city:hover{background-color:#E1E0A6;}
+#galery:hover{background-color:#E1E0A6;}
+#excursion:hover{background-color:#E1E0A6;}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.content{
+outline:0px solid black;
+width:1004px;
+padding:0px 0px 10px 0px;
+margin:20px;
+border-top:1px ridge #140E09;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+background-image:url(../image_W/background.png);
+box-shadow:  7px 2px 5px #140E09;
+}
+
+#intro{
+outline:0px solid black;
+margin:50px 20px 15px 30px;
+padding:10px 20px 15px 20px;
+font:20px  Comic Sans MS;
+}
+
+#gmail #a:visited{color:red;}
+#gmail #a:hover{color:green;}
+
+#gmail #a_1	:link{color:#F0BD3D;}
+#gmail #a_1:visited{color:green;}
+#gmail #a_1:hover{color:green;}
+
+/**/
+#t_1{
+outline:0px solid red;
+margin:0px 20px;
+padding:10px;
+border-top:2px dashed #A06138;
+border-bottom:0px ridge #D3D298;
+border-left:0px ridge #D3D298;
+border-right:0px ridge #D3D298;}
+
+}
+#p{
+outline:0px solid red;
+width:550px;
+margin:20px 0 0 255px;
+padding:10px;
+border:0px solid black;
+box-shadow: 10px 8px 10px 0px #6A6A6A;
+}
+#topic{
+outline:0 solid red;
+margin:10px;
+display:block;
+font:bold 20px  Comic Sans MS;
+}
+#map{
+outline:0px solid black;
+display:block;
+padding:0 0 0 150px;
+}
+#map_br{
+border:5px ridge red;
+}
+p{
+text-indent:25px;
+}
+/**/
+.clear{
+clear:both;
+}
+
+.fotter{
+font:15px  Palatino Linotype;
+color:#F0BD3D;
+box-shadow: inset 0 0 10px #140E09;
+margin:20px 0 0 0;
+padding:30px;
+border-top:7px ridge red;
+background-image:url(../image_W/main_head_bg.png);
+}
+
+#trade_mark{
+padding:3px;
+margin:10px 1030px 5px 10px;
+box-shadow:  0px 0px 20px 2px #140E09;
+text-shadow: 1px 0px 0px #140E09;
+border:3px outset #805F36;
+background-image:url(../image_W/planka.png);}

@@ -1,0 +1,145 @@
+body{
+margin:0;
+padding:0;
+background-color:#00496C;
+outline:0px solid green;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>-navigation->>>>>>>>>>>>>>>>>>>>>>>>*/
+.navi{
+position:relative;
+margin:0 auto;
+padding:80px 0;
+color:#FFFFC1;
+outline:0px solid #9905F2;
+border-bottom:0px ridge #F0EFAD;
+}
+a{text-decoration:none;}
+a:link{color:#00496C;}
+a:visited{color:#9F7200;}
+a:hover{color:#774D3D;}
+a:active{color:#00496C;}
+
+#main,#galery,#inform,#excursion{
+top: 1px;
+font:15px  Comic Sans MS;
+background-color:#C3C433;
+padding:50px 25px;
+/*border-top:2px dashed gray;*/
+box-shadow: 2px 0 7px 1px #6A6A6A;
+-webkit-border-radius: 0 0 120px 20px;
+}
+#main{
+left:820px;
+position:absolute;
+}
+#galery{
+position:absolute;
+left:925px;
+}
+#inform{
+position:absolute;
+left:1070px;
+}
+#excursion{
+position:absolute;
+left:1150px;
+}
+#main:hover{background-color:#FFFDF7;}
+#galery:hover{background-color:#FFFDF7;}
+#inform:hover{background-color:#FFFDF7;}
+#excursion:hover{background-color:#FFFDF7;}
+/*<<<<<<<<<<<<<<<<<<<<<-end navigation-<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*<<<<<<<<<<<<<<<<<<<<<-content-<<<<<<<<<<<<<<<<<<<<<<<<*/
+#cover{
+padding:10px 0 10px 0;
+width:970px;
+background-image:url(../image_W/deco_2.png);
+margin:70px auto 50px auto;
+outline:0px solid red;
+border:0px ridge #8B5D4C;
+-webkit-border-radius:8px;
+}
+#list2{
+border:0px ridge #8B5D4C;
+margin:0 auto;
+width:947px;
+border:1px solid #CCCCCC;
+background-color:#FFFDF7;
+outline:0px solid red;
+}
+#list1{
+margin:-2px 3px 2px 3px;
+width:939px;
+background-color:#FFFDF7;
+border:1px solid #CCCCCC;
+outline:0px solid #8FF41F; /*light green*/
+}
+#book {
+outline:0px solid red;
+text-align:center;
+width:930px;
+color:#66666A;
+background-color:#FFFDF7;
+border:1px solid #CCCCCC;
+margin:-2px 3px 2px 3px;
+outline:0px solid #6A34C5; /*violet*/
+background-image:url(../image_W/rozdil_1.png);
+background-position:452px;
+background-repeat:repeat-y;
+}
+#deko_top{margin:0 0 0 18px;}
+#page_1{
+margin:auto 0;
+padding:15px;
+float:left;
+width:420px;
+border-right:0px solid #EDEDED;
+overflow:auto; /*добавляє полосу прокрутки*/
+outline:0px solid #00FFA9;
+}
+img{margin:10px;}
+#pict{border:1px ridge #6C3715;}
+
+#page_2{
+margin:auto 0;
+padding:10px;
+float:right;
+width:430px;
+border:0px solid #FFFDF7;
+outline:0px solid green;
+overflow:auto;
+}
+#p{text-indent:25px;}
+p{color:#66666A;}
+
+.fotter{
+float:right;
+margin-right:172px;
+margin-bottom:20px;
+outline:0px solid black;
+border:1px solid #FFFDF7;
+}
+#border-bottom{
+border:0px ridge #FFFDF7;
+padding:10px;
+}
+#border-bottom:hover{border:3px solid #E8E8FF;}
+#space{padding:30px;}
+
+#deko_1{
+float:left;
+margin-left:195px;
+outline:0px solid black;
+border:0px solid #FFFDF7;
+}
+#deko_2{
+float:right;
+margin-right:195px;
+outline:0px solid black;
+border:0px solid #FFFDF7;
+}
+
+.clear{clear:both;}
+/*<<<<<<<<<<<<<<<<<<<<<-content-<<<<<<<<<<<<<<<<<<<<<<<<*/

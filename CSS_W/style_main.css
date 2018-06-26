@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../picture_W/lviv_bg.PNG);
+    background-attachment: fixed;
+    min-height: 650px;
+    max-height: 960px;
+}
+
+
+/***********************************************************/
+
+.head {
+    position: relative;
+    width: 900px;
+    height: 180px;
+    margin: 50px auto;
+    border: 10px ridge #00895F;
+    background-color: #C3C433;
+    box-shadow: inset 0 0 10px #140E09;
+    background-image: url(../image_W/main_head_bg.png);
+}
+
+#name {
+    text-shadow: 1px 1px 0px #140E09;
+    font: 50px Palatino Linotype;
+    color: #D5A836;
+    margin: 20px 10px 20px 50px;
+    padding: 0 0 5px 0;
+    width: 310px;
+    text-align: center;
+    /*box-shadow: inset 4px 3px 10px 0px #140E09;*/
+    border: 7px outset #6C3715;
+    background-image: url(../image_W/main_head_bg-1.png);
+}
+
+#describe {
+    font: 20px Palatino Linotype;
+    width: 410px;
+    color: #D5A836;
+    margin: 10px;
+    padding: 0 0 5px 0;
+    text-align: center;
+    /*box-shadow:  0px 0px 20px 1px #140E09;*/
+    text-shadow: 1px 1px 0px #140E09;
+    border: 3px outset #6C3715;
+    background-image: url(../image_W/planka.png);
+}
+
+.page_city {
+    cursor:no-drop;
+    padding: 40px 10px;
+    position: absolute;
+    top: -30px;
+    left: 600px;
+    text-align: center;
+    font: bold 15px Palatino Linotype;
+    border-top: 6px ridge #00895F;
+    border-left: 6px ridge #00895F;
+    background-color: #C1B86A;
+    box-shadow: inset 0px 0px 20px 2px #140E09;
+}
+
+.excursion {
+    cursor: pointer;
+    padding: 40px 10px;
+    position: absolute;
+    top: -30px;
+    left: 710px;
+    text-align: center;
+    font: bold 15px Palatino Linotype;
+    border-top: 6px ridge #00895F;
+    border-right: 6px ridge #00895F;
+    background-color: #C1B86A;
+    box-shadow: inset 0px 0px 20px 2px #140E09;
+}
+
+.galery {
+    cursor: pointer;
+    padding: 50px 15px;
+    position: absolute;
+    bottom: -30px;
+    left: 600px;
+    text-align: center;
+    font: bold 15px Palatino Linotype;
+    border-bottom: 6px ridge #00895F;
+    border-left: 6px ridge #00895F;
+    background-color: #C1B86A;
+    box-shadow: inset 0px 0px 20px 2px #140E09;
+}
+
+.inform {
+    cursor: pointer;
+    padding: 50px 32px;
+    position: absolute;
+    bottom: -30px;
+    left: 710px;
+    text-align: center;
+    font: bold 15px Palatino Linotype;
+    border-bottom: 6px ridge #00895F;
+    border-right: 6px ridge #00895F;
+    /*#00895F*/
+    background-color: #C1B86A;
+    box-shadow: inset 0px 0px 20px 2px #140E09;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #D5A836;
+}
+
+a:visited {
+    color: #A07200;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.page_city:hover {
+    background-color: #D3CA7C;
+    border-color: #003BB5;
+}
+
+.excursion:hover {
+    background-color: #D3CA7C;
+    border-color: #9905F2;
+}
+
+.galery:hover {
+    background-color: #D3CA7C;
+    border-color: #C81F63;
+}
+
+.inform:hover {
+    background-color: #D3CA7C;
+    border-color: #C4260E;
+}
+
+
+/***********************************************************/
+
+.content {
+    margin: 15px auto;
+    padding: 20px;
+    width: 1000px;
+    border: 25px ridge #C8A448;
+    background-color: #805F36;
+    color: #141414;
+    background-image: url(../image_W/main_head_bg.png);
+}
+
+#p_1,
+#p_2,
+#p_3,
+#p_4,
+#p_5,
+#p_6,
+#p_7 {
+    text-align: center;
+    border: 10px ridge #867715;
+    padding: 10px;
+    background-color: #56737c;
+    margin: 15px 0;
+    font: 13px Lucida Sans Unicode;
+    background-image: url(../image_W/topic_bg.png);
+}
+
+#weather {
+    margin: 0 0 0 75px;
+}
+
+#topic {
+    font: bold 20px Lucida Sans Unicode;
+}
+
+.content p {
+    outline: 0px solid red;
+}
+
+.content a {
+    font: 15px Lucida Sans Unicode;
+}
+
+.content a:link {
+    color: #004976;
+}
+
+.content a:visited {
+    color: #FF0000;
+}
+
+.content a:hover {
+    color: #007C28;
+}
+
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+/*#weather{margin:10px auto;outline:2px solid red;}*/
+
+#meteoprog_informer_standart {
+    margin: 10px auto;
+}
+
+#p_1 {
+    width: 440px;
+    float: left;
+}
+
+#p_2 {
+    float: right;
+    width: 440px;
+}
+
+.clear {
+    clear: both;
+}
+
+#p_3 {
+    margin: auto;
+    width: 850px;
+}
+
+#p_4 {
+    float: left;
+    width: 440px;
+}
+
+#p_5 {
+    float: right;
+    width: 440px;
+}
+
+#p_6 {
+    margin: auto;
+    width: 850px;
+}
+
+#p_7 {
+    margin: 14px auto;
+    width: 850px;
+}
+
+
+/***********************************************************/
+
+#fotter {
+    font: 15px Palatino Linotype;
+    color: #D5A836;
+    margin: 20px 0 0 0;
+    padding: 30px;
+    border-top: 10px ridge #00895F;
+    background-color: #c3c433;
+    box-shadow: inset 0px 0px 20px 2px #140E09;
+    background-image: url(../image_W/main_head_bg.png);
+    border-bottom: 1px ridge #140E09;
+}
+
+#trade_mark {
+    padding: 3px;
+    margin: 10px 1030px 5px 10px;
+    box-shadow: 0px 0px 20px 2px #140E09;
+    text-shadow: 1px 0px 0px #140E09;
+    border: 3px outset #805F36;
+    background-image: url(../image_W/planka.png);
+}
